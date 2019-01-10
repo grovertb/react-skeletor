@@ -13,17 +13,23 @@ npm install --save @grovertb/react-skeletor
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 
-import MyComponent from '@grovertb/react-skeletor'
+import Skeleton from '@grovertb/react-skeletor'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <Fragment>
+        <Skeleton />
+        <Skeleton width={100} height={100} circle  />
+        <Skeleton count={4} />
+        <Skeleton width={300} height={50}  />
+      </Fragment>
     )
   }
 }
+
 ```
 
 ## License
