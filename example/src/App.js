@@ -1,13 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 
-import ExampleComponent from '@grovertb/react-skeletor'
+import Skeleton from '@grovertb/react-skeletor'
 
 export default class App extends Component {
   render () {
     return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
+      <Fragment>
+        <Skeleton />
+        <Skeleton width={100} height={100} circle  />
+        <Skeleton count={4} />
+        <Skeleton width={300} height={50}  />
+      </Fragment>
     )
   }
 }

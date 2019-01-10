@@ -1,22 +1,63 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import PropTypes from 'prop-types'
 
 import styles from './styles.css'
 
-export default class ExampleComponent extends Component {
+export default class Skeleton extends Component {
   static propTypes = {
-    text: PropTypes.string
+    count: PropTypes.number,
+    duration: PropTypes.number,
+    width: PropTypes.string,
+    height: PropTypes.string,
+    circle: PropTypes.bool,
+    defaultBaseColor: PropTypes.string,
+    defaultHighlightColor: PropTypes.string
+  }
+
+  static defaultProps = {
+    count: 1,
+    duration: 1.2,
+    width: null,
+    height: null,
+    circle: false,
+    defaultBaseColor: '#eee',
+    defaultHighlightColor: '#f5f5f5'
   }
 
   render() {
+    const items = []
+
     const {
-      text
+      count,
+      duration,
+      defaultBaseColor,
+      defaultHighlightColor,
+      width,
+      height,
+      circle
     } = this.props
 
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
+    const styleItem = {
+      '--theme-base-color': defaultBaseColor,
+      '--theme-highlight-color': defaultHighlightColor,
+      '--theme-duration': `${duration}s`
+    }
+
+    if (width != null) styleItem.width = width
+    if (height != null) styleItem.height = height
+    if (width !== null && height !== null && circle) styleItem.borderRadius = '50%'
+
+    for (let i = 0; i < count; i++) {
+      items.push(
+        <span
+          key={i}
+          className={styles.skeletonClass}
+          style={styleItem} >
+          &zwnj;
+        </span>
+      )
+    }
+
+    return <Fragment>{items}</Fragment>
   }
 }
