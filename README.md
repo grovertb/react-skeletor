@@ -8,7 +8,14 @@
 
 ```bash
 npm install --save @grovertb/react-skeletor
+
+or
+
+yarn add @grovertb/react-skeletor
+
 ```
+
+## [Demo](https://grovertb.github.io/react-skeletor/)
 
 ## Usage
 
