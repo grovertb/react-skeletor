@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/@grovertb/react-skeletor/static/css/main.a2b7b0b6.chunk.css",
-    "main.js": "/@grovertb/react-skeletor/static/js/main.1725ddef.chunk.js",
-    "main.js.map": "/@grovertb/react-skeletor/static/js/main.1725ddef.chunk.js.map",
-    "runtime~main.js": "/@grovertb/react-skeletor/static/js/runtime~main.f8499555.js",
-    "runtime~main.js.map": "/@grovertb/react-skeletor/static/js/runtime~main.f8499555.js.map",
-    "static/js/2.ef496b70.chunk.js": "/@grovertb/react-skeletor/static/js/2.ef496b70.chunk.js",
-    "static/js/2.ef496b70.chunk.js.map": "/@grovertb/react-skeletor/static/js/2.ef496b70.chunk.js.map",
-    "index.html": "/@grovertb/react-skeletor/index.html",
-    "precache-manifest.29161090302365d473f6df489c32e8d2.js": "/@grovertb/react-skeletor/precache-manifest.29161090302365d473f6df489c32e8d2.js",
-    "service-worker.js": "/@grovertb/react-skeletor/service-worker.js",
-    "static/css/main.a2b7b0b6.chunk.css.map": "/@grovertb/react-skeletor/static/css/main.a2b7b0b6.chunk.css.map"
+    "main.css": "/react-skeletor/static/css/main.a2b7b0b6.chunk.css",
+    "main.js": "/react-skeletor/static/js/main.1725ddef.chunk.js",
+    "main.js.map": "/react-skeletor/static/js/main.1725ddef.chunk.js.map",
+    "runtime~main.js": "/react-skeletor/static/js/runtime~main.dafc287f.js",
+    "runtime~main.js.map": "/react-skeletor/static/js/runtime~main.dafc287f.js.map",
+    "static/js/2.ef496b70.chunk.js": "/react-skeletor/static/js/2.ef496b70.chunk.js",
+    "static/js/2.ef496b70.chunk.js.map": "/react-skeletor/static/js/2.ef496b70.chunk.js.map",
+    "index.html": "/react-skeletor/index.html",
+    "precache-manifest.9114a53d69a9df4025a011d77678714d.js": "/react-skeletor/precache-manifest.9114a53d69a9df4025a011d77678714d.js",
+    "service-worker.js": "/react-skeletor/service-worker.js",
+    "static/css/main.a2b7b0b6.chunk.css.map": "/react-skeletor/static/css/main.a2b7b0b6.chunk.css.map"
   }
 }
