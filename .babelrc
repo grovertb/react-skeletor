@@ -1,9 +1,23 @@
 {
   "presets": [
-    ["env", {
-      "modules": false
-    }],
-    "stage-0",
-    "react"
+    [
+      // "@babel/preset-env", {
+      //   "modules": false
+      // }
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": false
+        }
+      }
+    ],
+    // [
+    //   "@babel/plugin-proposal-class-properties", 
+    //   // { 
+    //   //   "loose": true 
+    //   // }
+    // ],
+    "@babel/preset-react",
+    // "@babel/preset-stage-0",
   ]
 }
