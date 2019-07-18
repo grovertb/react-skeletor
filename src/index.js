@@ -7,8 +7,14 @@ export default class Skeleton extends Component {
   static propTypes = {
     count: PropTypes.number,
     duration: PropTypes.number,
-    width: PropTypes.string,
-    height: PropTypes.string,
+    width: PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.number
+    ]),
+    height: PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.number
+    ]),
     circle: PropTypes.bool,
     defaultBaseColor: PropTypes.string,
     defaultHighlightColor: PropTypes.string
