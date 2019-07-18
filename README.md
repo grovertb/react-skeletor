@@ -10,6 +10,8 @@
 npm install --save @grovertb/react-skeletor
 ```
 
+## [Demo](https://grovertb.github.io/react-skeletor/)
+
 ## Usage
 
 ```jsx
