@@ -1,6 +1,6 @@
 # @grovertb/react-skeletor
 
-> react-skeletor
+* react-skeletor working in ssr
 
 [![NPM](https://img.shields.io/npm/v/@grovertb/react-skeletor.svg)](https://www.npmjs.com/package/@grovertb/react-skeletor) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
